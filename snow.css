@@ -1,0 +1,28 @@
+/* CSS for Problem 1 */
+html, body { height: 100%; }
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+#snow-scene {
+  position: relative;
+  width: 800px;
+  height: 300px;
+  background: lightblue;
+  overflow: hidden;
+  margin: auto
+}
+
+.snowflake {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-color: white;
+  border: 1px solid black;
+  user-select: none;
+  z-index: 1000;
+  pointer-events: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
